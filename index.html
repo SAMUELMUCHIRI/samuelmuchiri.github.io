@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./src/output.css" rel="stylesheet">
 </head>
-<body class="bg-black text-white container  place-content-center  mx-auto flex">
-    <div>
-    <div class=" flex justify-center mt-6 mx-auto  w-svh ">
+<body class="bg-black text-white container w-auto  lg:place-content-center lg:mx-auto flex grid grid-cols-1">
+    
+    <div class=" flex justify-center mt-6 w-screen justify-self-center ">
         <nav class="bg-white/10 p-2 rounded-xl flex justify-between">
             <a href="#home"  class="text-base font-bold  mx-3  p-2 rounded-xl h-10 w-10 group transition-colors duration-700  ">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -58,11 +58,11 @@
             </a>
         </nav>
     </div>
-    <section id="home" class="h-auto w-[950px] justify-self-center  bg-inherit  m-10 grid grid-cols-3 gap-8 ">  
-        <div class=" h-[450px] w-full  sticky inset-y-0 left-0 " >
-        <div class="bg-white h-full w-full rounded-xl p-2 m-4  relative">
-            <div class="bg-orange-600 relative overflow-hidden h-1/2 w-2/3 rounded-2xl mt-6 justify-self-center">
-                <img src="src/images/profile.webp"  class="absolute bottom-0" alt="profile"/>
+    <section id="home" class="h-auto lg:w-[950px] w-5/6 justify-self-center content-center bg-inherit  lg:m-10 m-4 grid lg:grid-cols-3 grid-cols-1 lg:gap-8 gap-4  ">  
+        <div class=" h-[450px] w-full  lg:sticky lg:inset-y-0  lg:left-0 inset-0  col-span-1 " >
+        <div class="bg-white h-full w-full rounded-xl p-2 lg:m-4  relative">
+            <div class="bg-orange-600 relative overflow-hidden h-1/2 w-2/3 rounded-2xl mt-6 justify-self-center justify-center">
+                <img src="src/images/profile.webp"  class="flex  justify-self-center absolute bottom-0 aspect-auto object-center h-5/6  inset-x-0  object-contain" alt="profile"/>
             </div>
             <h1 class="text-black text-center mt-4 font-bold text-3xl">Samuel Njau</h1>
             <p class="font-mono font-semibold text-gray-500 text-center mt-6 text-sm">An Electronic and Computer Engineer who  develops innovative solutions </p>
@@ -99,38 +99,38 @@
             </div>
         </div>
         </div>
-        <div class="bg-inherit h-auto rounded-xl p-2 col-span-2">
-            <H1 class="text-7xl font-bold">Electronic and Computer<P class="text-white/20">Engineer</P> </H1>
-            <p class="text-gray-400 mt-8 text-lg w-2/3">Driven by innovation, I design seamless and impactful technology solutions. Passionate about turning complex concepts into elegantly engineered systems that enhance user experiences and push the boundaries of what's possible.</p>
-            <div class="grid grid-cols-3 mt-8">
+        <div class="bg-inherit h-auto rounded-xl p-2 lg:col-span-2 col-span-1">
+            <H1 class="lg:text-7xl text-2xl font-bold">Electronic and Computer<P class="text-white/20">Engineer</P> </H1>
+            <p class="text-gray-400 lg:mt-8 mt-4 lg:text-lg text-sm  w-2/3">Driven by innovation, I design seamless and impactful technology solutions. Passionate about turning complex concepts into elegantly engineered systems that enhance user experiences and push the boundaries of what's possible.</p>
+            <div class="grid grid-cols-3 lg:mt-8 mt-4">
                 <div>
-                    <h1  class="text-6xl font-extrabold">+4</h1>
-                    <p class="text-white/20 font-semibold w-2/3">YEARS OF EXPERIENCE</p>
+                    <h1  class="lg:text-6xl text-3xl font-extrabold">+4</h1>
+                    <p class="text-white/20 lg:text-base text-sm font-semibold w-2/3">YEARS OF EXPERIENCE</p>
                     </div>
                 <div>
-                    <h1 class="text-6xl font-extrabold">+12</h1>  
-                    <p class="text-white/20 font-semibold w-2/3">PROJECTS COMPLETED</p>                 
+                    <h1 class="lg:text-6xl text-3xl font-extrabold">+12</h1>  
+                    <p class="text-white/20 lg:text-base text-sm font-semibold w-2/3">PROJECTS COMPLETED</p>                 
                 </div>
                 <div>
-                    <h1  class="text-6xl font-extrabold">+34</h1>
-                    <p class="text-white/20 font-semibold w-2/3">WORLDWIDE CLIENTS</p>
+                    <h1  class="lg:text-6xl text-3xl font-extrabold">+34</h1>
+                    <p class="text-white/20 lg:text-base text-sm font-semibold w-2/3">WORLDWIDE CLIENTS</p>
                 </div>
 
             </div>
-            <div class="grid grid-cols-5 h-[300px] gap-8 mt-8 ">
+            <div class="grid grid-cols-5 lg:h-[300px]  h-[200px] lg:gap-8 gap-2 lg:mt-8 mt-4 ">
                 <div class="h-full bg-[#f56c39] col-span-2 rounded-xl relative ">
                     
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-12 text-white p-[2px] mt-8 ml-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="lg:size-12 size-8 text-white p-[2px] lg:mt-8 mt-4 lg:ml-4 ml-2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 0 0 2.25-2.25V6.75a2.25 2.25 0 0 0-2.25-2.25H6.75A2.25 2.25 0 0 0 4.5 6.75v10.5a2.25 2.25 0 0 0 2.25 2.25Zm.75-12h9v9h-9v-9Z" />
                     </svg>
                     <div class="flex items-center">
                      
-                    <p class="mt-2 ml-4 font-sans  text-2xl font-semibold">ELECTRONIC DESIGN AND INTERGRATION</p>
+                    <p class="mt-2 lg:ml-4 ml-2 font-sans  lg:text-2xl text-base font-semibold">ELECTRONIC DESIGN <p class="lg:block hidden">AND INTERGRATION</p></p>
                     
                         
                     </div>
                     <a href="#electronic">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute right-10 bottom-10  size-8 text-white p-[4px]  hover:bg-white hover:text-[#f56c39] border rounded-xl flex justify-self-end transition-colors duration-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute lg:right-10 right-5 lg:bottom-10 bottom-5  size-8 text-white p-[4px]  hover:bg-white hover:text-[#f56c39] border rounded-xl flex justify-self-end transition-colors duration-700">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                         </svg>
 
@@ -142,16 +142,16 @@
                 </div>
                 <div class="col-span-3  h-full bg-[#c8fc44] rounded-xl relative  ">
                     
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"  stroke-width="1.5" stroke="currentColor" class="size-12 text-black p-[2px] mt-8 ml-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"  stroke-width="1.5" stroke="currentColor" class="lg:size-12 size-8 text-black p-[2px] lg:mt-8 mt-4  lg:ml-4 ml-2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
                       </svg>
-                      <div class="flex items-center my-4"> 
+                      <div class="flex items-center lg:my-4 ml-2 lg:ml-0"> 
                     
-                    <p class="mt-2 ml-4 font-sans text-black  text-2xl font-semibold">FULL STACK WEB DESIGN AND DEVELOPMENT</p>
+                    <p class="mt-2 lg:ml-4 ml-2 font-sans text-black  lg:text-2xl text-base font-semibold">FULL STACK WEB DESIGN AND DEVELOPMENT</p>
                    
                     </div>
                     <a href="#webdev">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute right-10 bottom-10 size-8 text-black p-[4px] mt-4 mx-2 hover:bg-black hover:text-[#c8fc44] border rounded-xl flex justify-self-end transition-colors duration-700 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute lg:right-10 right-5 lg:bottom-10 bottom-5 size-8 text-black p-[4px] mt-4 mx-2 hover:bg-black hover:text-[#c8fc44] border rounded-xl flex justify-self-end transition-colors duration-700 ">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                     </svg>
                     </a>
@@ -159,55 +159,55 @@
 
             </div>
          
-            <section id="projects" class="h-auto mt-20">
-                <H1 class="text-7xl font-bold">RECENT<P class="text-white/20"> PROJECTS</P> </H1>
+            <section id="projects" class="h-auto lg:mt-20 mt-10">
+                <H1 class="lg:text-7xl text-3xl font-bold">RECENT<P class="text-white/20"> PROJECTS</P> </H1>
                <a href="https://github.com/SAMUELMUCHIRI/SMART-PARKING-WITH-MPESA" id="electronic"class="h-[150px] bg-inherit mt-8 flex items-center rounded-xl group  relative hover:bg-white/10 transition-colors duration-300 ">
-                    <img src="src/images/routes.webp" alt="smart parking " class="size-28 mx-4 group-hover:grayscale-0 grayscale  object-cover object-center rounded-xl transition-all duration-300"/>
+                    <img src="src/images/routes.webp" alt="smart parking " class="lg:size-28 size-16 mx-4 group-hover:grayscale-0 grayscale  object-cover object-center rounded-xl transition-all duration-300"/>
                     <div>
                         <h1 class="font-sans font-bold text-xl">SMART PARKING WITH MPESA</h1>
                         <p class="text-sm text-white/50 mt-1 ">A system built with <strong>PHP</strong> and <strong>Arduino</strong>  </p>
                     </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"  stroke-width="1.5" stroke="currentColor" class="group-hover:size-8 transition-all duration-300 absolute right-10 top-10 size-10 text-[#f56c39] p-[2px] ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"  stroke-width="1.5" stroke="currentColor" class="lg:block hidden lg:group-hover:size-8 group-hover:size-6transition-all duration-300 absolute right-10 top-10 lg:size-10 size-8 text-[#f56c39] p-[2px] ">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                     </svg>             
                </a> 
                <a href="https://www.linkedin.com/posts/samuelmuchiri_i-participated-in-robotics-dojo-held-in-jomo-activity-7116461110760738816-9V83?utm_source=share&utm_medium=member_desktop" class="h-[150px] bg-inherit mt-8 flex items-center rounded-xl group  relative hover:bg-white/10 transition-colors duration-300 ">
-                <img src="src/images/dojo.webp" alt="smart parking " class="size-28 mx-4  group-hover:grayscale-0 grayscale object-cover object-center rounded-xl transition-all duration-300"/>
+                <img src="src/images/dojo.webp" alt="smart parking " class="lg:size-28 size-16 mx-4  group-hover:grayscale-0 grayscale object-cover object-center rounded-xl transition-all duration-300"/>
                 <div>
                     <h1 class="font-sans font-bold text-xl">Robo Dojo 2023</h1>
                     <p class="text-sm text-white/50 mt-1 ">A line following  robot built with <strong>Solid works</strong> and <strong>C++</strong>  </p>
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"  stroke-width="1.5" stroke="currentColor" class="group-hover:size-8 transition-all duration-300 absolute right-10 top-10 size-10 text-[#f56c39] p-[2px] ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"  stroke-width="1.5" stroke="currentColor" class="lg:block hidden lg:group-hover:size-8 group-hover:size-6 transition-all duration-300 absolute right-10 top-10 lg:size-10 size-8 text-[#f56c39] p-[2px] ">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                 </svg>        
                 </a> 
                 <a href="https://www.linkedin.com/posts/samuelmuchiri_robotics-ros2-autonomousnavigation-activity-7249662669845086208-Dqlt?utm_source=social_share_send&utm_medium=member_desktop_web" class="h-[150px] bg-inherit mt-8 flex items-center rounded-xl group  relative hover:bg-white/10 transition-colors duration-300 ">
-                    <img src="src/images/dojo2024.webp" alt="smart parking " class="size-28 mx-4 group-hover:grayscale-0 grayscale  object-cover object-center rounded-xl transition-all duration-300"/>
+                    <img src="src/images/dojo2024.webp" alt="smart parking " class="lg:size-28 size-16 mx-4 group-hover:grayscale-0 grayscale  object-cover object-center rounded-xl transition-all duration-300"/>
                     <div>
                         <h1 class="font-sans font-bold text-xl">Robo Dojo 2024</h1>
                         <p class="text-sm text-white/50 mt-1 ">A navigation  robot built with <strong>ROS</strong> and <strong>C++</strong>  </p>
                     </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"  stroke-width="1.5" stroke="currentColor" class="group-hover:size-8 transition-all duration-300 absolute right-10 top-10 size-10 text-[#f56c39] p-[2px] ">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                    </svg>        
-                </a> 
-                <a href="https://www.linkedin.com/posts/samuelmuchiri_robotics-ros2-autonomousnavigation-activity-7249662669845086208-Dqlt?utm_source=social_share_send&utm_medium=member_desktop_web" class="h-[150px] bg-inherit mt-8 flex items-center rounded-xl group  relative hover:bg-white/10 transition-colors duration-300 ">
-                    <img src="src/images/mamacare.webp" alt="smart parking " id="webdev" class="size-28 mx-4  group-hover:grayscale-0 grayscale object-cover object-center rounded-xl transition-all duration-300"/>
-                    <div>
-                        <h1 class="font-sans font-bold text-xl">Mama Care</h1>
-                        <p class="text-sm text-white/50 mt-1 ">A Maternal monitoring system built with  <strong>Laravel </strong> and <strong>C++</strong>  </p>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"  stroke-width="1.5" stroke="currentColor" class="group-hover:size-8 transition-all duration-300 absolute right-10 top-10 size-10 text-[#f56c39] p-[2px] ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"  stroke-width="1.5" stroke="currentColor" class="lg:block hidden lg:group-hover:size-8 group-hover:size-6 transition-all duration-300 absolute right-10 top-10 lg:size-10 size-8 text-[#f56c39] p-[2px] ">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                     </svg>        
                 </a> 
                 <a href="#" class="h-[150px] bg-inherit mt-8 flex items-center rounded-xl group  relative hover:bg-white/10 transition-colors duration-300 ">
-                    <img src="src/images/images.webp" alt="smart parking " class="size-28 mx-4  group-hover:grayscale-0 grayscale object-cover object-center rounded-xl transition-all duration-300"/>
+                    <img src="src/images/mamacare.webp" alt="smart parking " id="webdev" class="lg:size-28 size-16 mx-4  group-hover:grayscale-0 grayscale object-cover object-center rounded-xl transition-all duration-300"/>
+                    <div>
+                        <h1 class="font-sans font-bold text-xl">Mama Care</h1>
+                        <p class="text-sm text-white/50 mt-1 ">A Maternal monitoring system built with  <strong>Laravel </strong> and <strong>C++</strong>  </p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"  stroke-width="1.5" stroke="currentColor" class="lg:block hidden lg:group-hover:size-8 group-hover:size-6 transition-all duration-300 absolute right-10 top-10 lg:size-10 size-8 text-[#f56c39] p-[2px] ">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg>        
+                </a> 
+                <a href="#" class="h-[150px] bg-inherit mt-8 flex items-center rounded-xl group  relative hover:bg-white/10 transition-colors duration-300 ">
+                    <img src="src/images/images.webp" alt="smart parking " class="lg:size-28 size-16 mx-4  group-hover:grayscale-0 grayscale object-cover object-center rounded-xl transition-all duration-300"/>
                     <div>
                         <h1 class="font-sans font-bold text-xl">Brain Tumor Prediction </h1>
                         <p class="text-sm text-white/50 mt-1 ">A tumor prediction system built with  <strong>Laravel</strong> and <strong>Python </strong>  </p>
                     </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"  stroke-width="1.5" stroke="currentColor" class="group-hover:size-8 transition-all duration-300 absolute right-10 top-10 size-10 text-[#f56c39] p-[2px] ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"  stroke-width="1.5" stroke="currentColor" class="lg:block hidden lg:group-hover:size-8 group-hover:size-6 transition-all duration-300 absolute right-10 top-10 lg:size-10 size-8 text-[#f56c39] p-[2px] ">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                     </svg>        
                 </a> 
@@ -217,8 +217,8 @@
 
          
          
-            <section id="experience" class="h-auto mt-20" >
-                <H1 class="text-7xl font-bold">+4 YEARS OF<P class="text-white/20">EXPERIENCE</P> </H1>
+            <section id="experience" class="h-auto lg:mt-20 mt-10" >
+                <H1 class="lg:text-7xl text-3xl font-bold">+4 YEARS OF<P class="text-white/20">EXPERIENCE</P> </H1>
                 <div class="h-[150px] bg-inherit mt-8 flex items-center rounded-xl group relative hover:bg-white/10 transition-colors duration-300 p-4">
                     <div>
                         <h1 class="font-sans font-bold text-xl">Backend Development & System Integration</h1>
@@ -247,11 +247,11 @@
 
             </section>
 
-            <section id="tools" class="h-auto mt-20" >
-                <H1 class="text-7xl font-bold">PREMIUM<P class="text-white/20">TOOLS</P> </H1>
-                <div class="grid grid-cols-2 gap-4 mt-10">
+            <section id="tools" class="h-auto lg:mt-20 mt-10" >
+                <H1 class="lg:text-7xl text-3xl  font-bold">PREMIUM<P class="text-white/20">TOOLS</P> </H1>
+                <div class="grid   lg:grid-cols-2 grid-cols-1 lg:gap-4 gap-2 mt-10">
                     <div class="flex p-1">
-                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256" class="mt- size-20">
+                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256" class=" lg:size-20 size-16">
                             <g fill="none"><rect width="256" height="256" fill="#f4f2ed" rx="60"/>
                             <path fill="#ff2d20" fill-rule="evenodd" d="M215.846 78.314q.097.366.098.747v39.199c0 .503-.131.997-.379 1.432a2.84 2.84 0 0 1-1.037 1.047l-32.446 18.942v37.545a2.87
                              2.87 0 0 1-1.409 2.48l-67.728 39.535c-.155.089-.324.146-.493.207c-.064.022-.123.061-.19.079a2.8 2.8 0 0 1-1.445 0c-.077-.022-.148-.065-.222-.093c-.155-.057-.317-.107-.465-.193l-67.714-39.535a2.85 2.85 
@@ -260,71 +260,71 @@
                             </g>
                         </svg>
                         <div class="px-4">
-                            <h1 class="font-sans font-bold text-2xl">Laravel </h1>
+                            <h1 class="font-sans font-bold lg:text-2xl text-lg">Laravel </h1>
                             <p class="text-sm text-white/50 mt-2">Fullstack PHP web framework</p>
                         </div>
                         
                     </div>
-                    <div class="flex p-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" class=" size-20"> 
+                    <div class="flex lg:p-1 p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" class=" lg:size-20 size-16"> 
                             <g fill="none"><rect width="256" height="256" fill="#f4f2ed" rx="60"/>
                                 <path fill="url(#skillIconsTailwindcssLight0)" fill-rule="evenodd" d="M83 110q9-36 45-36c36 0 40.5 27 58.5 31.5q18 4.502 31.5-13.5q-9 36-45 36c-36 0-40.5-27-58.5-31.5Q96.5 92 83 110m-45 54q9-36 45-36c36 0 40.5 27 58.5 31.5q18 4.502 31.5-13.5q-9 36-45 36c-36 0-40.5-27-58.5-31.5q-18-4.502-31.5 13.5" clip-rule="evenodd"/><defs><linearGradient id="skillIconsTailwindcssLight0" x1="86.5" x2="163.5" y1="74" y2="185.5" gradientUnits="userSpaceOnUse"><stop stop-color="#32b1c1"/><stop offset="1" stop-color="#14c6b7"/></linearGradient></defs>
                         </g></svg>
                         <div class="px-4">
-                            <h1 class="font-sans font-bold text-2xl">Tailwind CSS </h1>
+                            <h1 class="font-sans font-bold lg:text-2xl text-lg">Tailwind CSS </h1>
                             <p class="text-sm text-white/50 mt-2">CSS framework</p>
                         </div>
                         
                     </div>
                     <div class="flex p-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" class=" size-20" viewBox="0 0 256 256"><g fill="none"><rect width="256" height="256" fill="#f4f2ed" rx="60"/><path fill="url(#skillIconsPythonLight0)" d="M127.279 29c-50.772 0-47.602 22.018-47.602 22.018l.057 22.81h48.451v6.85H60.489S28 76.992 28 128.221s28.357 49.414 28.357 49.414h16.924v-23.773s-.912-28.357 27.905-28.357h48.054s26.999.436 26.999-26.094V55.546S180.338 29 127.279 29m-26.716 15.339a8.71 8.71 0 0 1 8.717 8.717a8.71 8.71 0 0 1-8.717 8.716a8.71 8.71 0 0 1-8.716-8.716a8.71 8.71 0 0 1 8.716-8.717"/><path fill="url(#skillIconsPythonLight1)" d="M128.721 227.958c50.772 0 47.602-22.017 47.602-22.017l-.057-22.811h-48.451v-6.849h67.696S228 179.966 228 128.736s-28.357-49.413-28.357-49.413h-16.924v23.773s.912 28.357-27.905 28.357H106.76s-27-.437-27 26.093v43.866s-4.099 26.546 48.961 26.546m26.716-15.339a8.71 8.71 0 0 1-8.717-8.716a8.71 8.71 0 0 1 8.717-8.717a8.71 8.71 0 0 1 8.717 8.717a8.71 8.71 0 0 1-8.717 8.716"/><defs><linearGradient id="skillIconsPythonLight0" x1="47.22" x2="146.333" y1="46.896" y2="145.02" gradientUnits="userSpaceOnUse"><stop stop-color="#387eb8"/><stop offset="1" stop-color="#366994"/></linearGradient><linearGradient id="skillIconsPythonLight1" x1="108.056" x2="214.492" y1="109.905" y2="210.522" gradientUnits="userSpaceOnUse"><stop stop-color="#ffe052"/><stop offset="1" stop-color="#ffc331"/></linearGradient></defs></g></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" class=" lg:size-20 size-16" viewBox="0 0 256 256"><g fill="none"><rect width="256" height="256" fill="#f4f2ed" rx="60"/><path fill="url(#skillIconsPythonLight0)" d="M127.279 29c-50.772 0-47.602 22.018-47.602 22.018l.057 22.81h48.451v6.85H60.489S28 76.992 28 128.221s28.357 49.414 28.357 49.414h16.924v-23.773s-.912-28.357 27.905-28.357h48.054s26.999.436 26.999-26.094V55.546S180.338 29 127.279 29m-26.716 15.339a8.71 8.71 0 0 1 8.717 8.717a8.71 8.71 0 0 1-8.717 8.716a8.71 8.71 0 0 1-8.716-8.716a8.71 8.71 0 0 1 8.716-8.717"/><path fill="url(#skillIconsPythonLight1)" d="M128.721 227.958c50.772 0 47.602-22.017 47.602-22.017l-.057-22.811h-48.451v-6.849h67.696S228 179.966 228 128.736s-28.357-49.413-28.357-49.413h-16.924v23.773s.912 28.357-27.905 28.357H106.76s-27-.437-27 26.093v43.866s-4.099 26.546 48.961 26.546m26.716-15.339a8.71 8.71 0 0 1-8.717-8.716a8.71 8.71 0 0 1 8.717-8.717a8.71 8.71 0 0 1 8.717 8.717a8.71 8.71 0 0 1-8.717 8.716"/><defs><linearGradient id="skillIconsPythonLight0" x1="47.22" x2="146.333" y1="46.896" y2="145.02" gradientUnits="userSpaceOnUse"><stop stop-color="#387eb8"/><stop offset="1" stop-color="#366994"/></linearGradient><linearGradient id="skillIconsPythonLight1" x1="108.056" x2="214.492" y1="109.905" y2="210.522" gradientUnits="userSpaceOnUse"><stop stop-color="#ffe052"/><stop offset="1" stop-color="#ffc331"/></linearGradient></defs></g></svg>
                         <div class="px-4">
-                            <h1 class="font-sans font-bold text-2xl">Python </h1>
+                            <h1 class="font-sans font-bold lg:text-2xl text-lg">Python </h1>
                             <p class="text-sm text-white/50 mt-2">GP programming language</p>
                         </div>
                         
                     </div>
                     <div class="flex p-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" class=" size-20"><g fill="none"><rect width="256" height="256" fill="#f4f2ed" rx="60"/><g clip-path="url(#skillIconsMysqlLight0)"><path fill="#00678c" fill-rule="evenodd" d="M203.801 178.21c-9.79-.272-17.385.731-23.75 3.409c-1.833.736-4.774.736-5.016 3.043c.98.968 1.098 2.552 1.957 3.894c1.467 2.435 4.041 5.715 6.365 7.417l7.834 5.598c4.774 2.917 10.16 4.622 14.811 7.542c2.694 1.704 5.386 3.894 8.08 5.721c1.372.973 2.203 2.558 3.918 3.163v-.368c-.856-1.091-1.103-2.672-1.956-3.894l-3.677-3.526c-3.547-4.744-7.957-8.884-12.731-12.287c-3.918-2.677-12.484-6.326-14.076-10.825l-.241-.273c2.689-.272 5.872-1.219 8.445-1.949c4.165-1.091 7.957-.851 12.238-1.945l5.88-1.704v-1.091c-2.204-2.189-3.795-5.11-6.119-7.176c-6.242-5.353-13.102-10.586-20.203-14.965c-3.794-2.432-8.692-4.017-12.731-6.081c-1.473-.731-3.918-1.096-4.774-2.312c-2.209-2.672-3.43-6.204-5.021-9.369l-10.037-21.168c-2.203-4.745-3.553-9.49-6.242-13.869c-12.611-20.683-26.324-33.212-47.38-45.502c-4.527-2.555-9.913-3.654-15.64-4.99l-9.18-.49c-1.962-.851-3.919-3.164-5.633-4.26c-6.978-4.38-24.974-13.868-30.12-1.363c-3.305 7.907 4.899 15.692 7.684 19.709c2.085 2.798 4.774 5.96 6.247 9.124c.823 2.067 1.098 4.259 1.957 6.449c1.956 5.352 3.794 11.316 6.365 16.306c1.372 2.555 2.813 5.235 4.527 7.545c.98 1.363 2.695 1.947 3.06 4.136c-1.715 2.435-1.833 6.081-2.813 9.127c-4.409 13.748-2.694 30.78 3.548 40.902c1.962 3.04 6.585 9.734 12.858 7.177c5.509-2.19 4.28-9.124 5.871-15.208c.37-1.458.124-2.432.856-3.408v.273l5.021 10.097c3.795 5.961 10.408 12.167 15.914 16.306c2.936 2.19 5.263 5.964 8.934 7.3v-.368h-.241c-.736-1.091-1.839-1.582-2.818-2.433c-2.203-2.189-4.651-4.867-6.366-7.299c-5.139-6.812-9.666-14.357-13.708-22.142c-1.961-3.771-3.676-7.908-5.262-11.679c-.741-1.461-.741-3.654-1.962-4.379c-1.839 2.672-4.527 4.99-5.88 8.273c-2.327 5.23-2.568 11.679-3.424 18.371c-.494.122-.275 0-.494.272c-3.913-.97-5.263-4.99-6.73-8.393c-3.672-8.638-4.287-22.507-1.104-32.484c.856-2.555 4.533-10.585 3.065-13.018c-.74-2.312-3.183-3.648-4.533-5.475c-1.591-2.312-3.3-5.23-4.403-7.785c-2.936-6.817-4.404-14.357-7.59-21.17c-1.473-3.164-4.041-6.45-6.124-9.367c-2.327-3.286-4.892-5.599-6.73-9.49c-.612-1.363-1.468-3.528-.489-4.99c.242-.973.735-1.363 1.71-1.581c1.59-1.364 6.124.365 7.715 1.09c4.527 1.827 8.322 3.529 12.117 6.081c1.715 1.216 3.553 3.529 5.756 4.14h2.574c3.918.85 8.322.272 11.99 1.363c6.49 2.072 12.364 5.11 17.632 8.398c16.035 10.098 29.26 24.454 38.193 41.611c1.468 2.798 2.08 5.353 3.43 8.273c2.574 5.964 5.757 12.045 8.322 17.888c2.574 5.718 5.021 11.562 8.693 16.306c1.838 2.555 9.18 3.891 12.484 5.23c2.45 1.091 6.242 2.073 8.451 3.409c4.159 2.555 8.322 5.475 12.237 8.273c1.956 1.456 8.081 4.499 8.445 6.926zM78.958 72.487a19.6 19.6 0 0 0-5.015.608v.273h.241c.98 1.947 2.695 3.286 3.918 4.99l2.818 5.84l.242-.272c1.714-1.216 2.573-3.163 2.573-6.08c-.735-.851-.856-1.705-1.468-2.556c-.735-1.216-2.326-1.827-3.309-2.797z" clip-rule="evenodd"/>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" class=" lg:size-20 size-16"><g fill="none"><rect width="256" height="256" fill="#f4f2ed" rx="60"/><g clip-path="url(#skillIconsMysqlLight0)"><path fill="#00678c" fill-rule="evenodd" d="M203.801 178.21c-9.79-.272-17.385.731-23.75 3.409c-1.833.736-4.774.736-5.016 3.043c.98.968 1.098 2.552 1.957 3.894c1.467 2.435 4.041 5.715 6.365 7.417l7.834 5.598c4.774 2.917 10.16 4.622 14.811 7.542c2.694 1.704 5.386 3.894 8.08 5.721c1.372.973 2.203 2.558 3.918 3.163v-.368c-.856-1.091-1.103-2.672-1.956-3.894l-3.677-3.526c-3.547-4.744-7.957-8.884-12.731-12.287c-3.918-2.677-12.484-6.326-14.076-10.825l-.241-.273c2.689-.272 5.872-1.219 8.445-1.949c4.165-1.091 7.957-.851 12.238-1.945l5.88-1.704v-1.091c-2.204-2.189-3.795-5.11-6.119-7.176c-6.242-5.353-13.102-10.586-20.203-14.965c-3.794-2.432-8.692-4.017-12.731-6.081c-1.473-.731-3.918-1.096-4.774-2.312c-2.209-2.672-3.43-6.204-5.021-9.369l-10.037-21.168c-2.203-4.745-3.553-9.49-6.242-13.869c-12.611-20.683-26.324-33.212-47.38-45.502c-4.527-2.555-9.913-3.654-15.64-4.99l-9.18-.49c-1.962-.851-3.919-3.164-5.633-4.26c-6.978-4.38-24.974-13.868-30.12-1.363c-3.305 7.907 4.899 15.692 7.684 19.709c2.085 2.798 4.774 5.96 6.247 9.124c.823 2.067 1.098 4.259 1.957 6.449c1.956 5.352 3.794 11.316 6.365 16.306c1.372 2.555 2.813 5.235 4.527 7.545c.98 1.363 2.695 1.947 3.06 4.136c-1.715 2.435-1.833 6.081-2.813 9.127c-4.409 13.748-2.694 30.78 3.548 40.902c1.962 3.04 6.585 9.734 12.858 7.177c5.509-2.19 4.28-9.124 5.871-15.208c.37-1.458.124-2.432.856-3.408v.273l5.021 10.097c3.795 5.961 10.408 12.167 15.914 16.306c2.936 2.19 5.263 5.964 8.934 7.3v-.368h-.241c-.736-1.091-1.839-1.582-2.818-2.433c-2.203-2.189-4.651-4.867-6.366-7.299c-5.139-6.812-9.666-14.357-13.708-22.142c-1.961-3.771-3.676-7.908-5.262-11.679c-.741-1.461-.741-3.654-1.962-4.379c-1.839 2.672-4.527 4.99-5.88 8.273c-2.327 5.23-2.568 11.679-3.424 18.371c-.494.122-.275 0-.494.272c-3.913-.97-5.263-4.99-6.73-8.393c-3.672-8.638-4.287-22.507-1.104-32.484c.856-2.555 4.533-10.585 3.065-13.018c-.74-2.312-3.183-3.648-4.533-5.475c-1.591-2.312-3.3-5.23-4.403-7.785c-2.936-6.817-4.404-14.357-7.59-21.17c-1.473-3.164-4.041-6.45-6.124-9.367c-2.327-3.286-4.892-5.599-6.73-9.49c-.612-1.363-1.468-3.528-.489-4.99c.242-.973.735-1.363 1.71-1.581c1.59-1.364 6.124.365 7.715 1.09c4.527 1.827 8.322 3.529 12.117 6.081c1.715 1.216 3.553 3.529 5.756 4.14h2.574c3.918.85 8.322.272 11.99 1.363c6.49 2.072 12.364 5.11 17.632 8.398c16.035 10.098 29.26 24.454 38.193 41.611c1.468 2.798 2.08 5.353 3.43 8.273c2.574 5.964 5.757 12.045 8.322 17.888c2.574 5.718 5.021 11.562 8.693 16.306c1.838 2.555 9.18 3.891 12.484 5.23c2.45 1.091 6.242 2.073 8.451 3.409c4.159 2.555 8.322 5.475 12.237 8.273c1.956 1.456 8.081 4.499 8.445 6.926zM78.958 72.487a19.6 19.6 0 0 0-5.015.608v.273h.241c.98 1.947 2.695 3.286 3.918 4.99l2.818 5.84l.242-.272c1.714-1.216 2.573-3.163 2.573-6.08c-.735-.851-.856-1.705-1.468-2.556c-.735-1.216-2.326-1.827-3.309-2.797z" clip-rule="evenodd"/>
                         </g><defs><clipPath id="skillIconsMysqlLight0"><path fill="#fff" d="M38 38h180v180H38z"/></clipPath></defs></g></svg>
                         <div class="px-4">
-                            <h1 class="font-sans font-bold text-2xl">Mysql </h1>
+                            <h1 class="font-sans font-bold lg:text-2xl text-lg">Mysql </h1>
                             <p class="text-sm text-white/50 mt-2">Relational DBMS</p>
                         </div>
                         
                     </div>
                     <div class="flex p-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" class=" size-20" ><g fill="none"><rect width="256" height="256" fill="#00599c" rx="60"/><path fill="#fff" d="M110.759 210.517C65.125 210.517 28 173.392 28 127.759C28 82.125 65.125 45 110.759 45c29.445 0 56.908 15.846 71.668 41.353l-35.816 20.726c-7.387-12.768-21.126-20.7-35.852-20.7c-22.817 0-41.38 18.563-41.38 41.38c0 22.816 18.563 41.379 41.38 41.379c14.727 0 28.466-7.932 35.854-20.702l35.816 20.725c-14.76 25.51-42.223 41.356-71.67 41.356"/>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" class=" lg:size-20 size-16" ><g fill="none"><rect width="256" height="256" fill="#00599c" rx="60"/><path fill="#fff" d="M110.759 210.517C65.125 210.517 28 173.392 28 127.759C28 82.125 65.125 45 110.759 45c29.445 0 56.908 15.846 71.668 41.353l-35.816 20.726c-7.387-12.768-21.126-20.7-35.852-20.7c-22.817 0-41.38 18.563-41.38 41.38c0 22.816 18.563 41.379 41.38 41.379c14.727 0 28.466-7.932 35.854-20.702l35.816 20.725c-14.76 25.51-42.223 41.356-71.67 41.356"/>
                             <path fill="#fff" d="M193.517 123.161h-9.196v-9.196h-9.194v9.196h-9.196v9.195h9.196v9.196h9.194v-9.196h9.196zm34.483 0h-9.196v-9.196h-9.194v9.196h-9.196v9.195h9.196v9.196h9.194v-9.196H228z"/></g></svg>
                         <div class="px-4">
-                            <h1 class="font-sans font-bold text-2xl">C++ </h1>
+                            <h1 class="font-sans font-bold lg:text-2xl text-lg">C++ </h1>
                             <p class="text-sm text-white/50 mt-2">GP programming language</p>
                         </div>
                         
                     </div>
                     <div class="flex p-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" class="size-20"><g fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" class="lg:size-20 size-16"><g fill="none">
                             <rect width="256" height="256" fill="#009639" rx="60"/><path fill="#fff" d="M195.338 213a17.64 17.64 0 0 1-12.491-5.171L78.324 103.307v92.033c0 9.755-7.906 17.66-17.662 17.66C50.912 213 43 205.095 43 195.34V60.668c0-7.15 4.31-13.585 10.908-16.318a17.63 17.63 0 0 1 19.245 3.828L177.676 152.7V60.668c0-9.756 7.906-17.66 17.662-17.66S213 50.911 213 60.667V195.34c0 7.141-4.31 13.584-10.908 16.318a17.6 17.6 0 0 1-6.754 1.342"/></g></svg>
                         <div class="px-4">
-                            <h1 class="font-sans font-bold text-2xl">Nginx</h1>
+                            <h1 class="font-sans font-bold lg:text-2xl text-lg">Nginx</h1>
                             <p class="text-sm text-white/50 mt-2">Web server</p>
                         </div>
                         
                     </div>
                     <div class="flex p-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" CLASS="size-20"><g fill="none"><rect width="256" height="256" fill="#f03c2e" rx="60"/><g clip-path="url(#skillIconsGit0)"><path fill="#fff" d="m224.225 119.094l-87.319-87.319a12.87 12.87 0 0 0-14.035-2.793a12.9 12.9 0 0 0-4.177 2.793L100.569 49.9l23 23c5.35-1.875 11.475-.594 15.737 3.669a15.31 15.31 0 0 1 3.631 15.831l22.169 22.169c5.363-1.85 11.55-.657 15.831 3.637a15.32 15.32 0 0 1 3.321 16.706a15.333 15.333 0 0 1-20.029 8.293c-1.86-.771-3.55-1.9-4.973-3.324c-4.5-4.5-5.612-11.125-3.337-16.669l-20.675-20.675v54.407a15.6 15.6 0 0 1 4.062 2.9a15.326 15.326 0 0 1-21.675 21.675a15.32 15.32 0 0 1-3.326-16.704a15.3 15.3 0 0 1 3.326-4.971c1.481-1.475 3.125-2.594 5.019-3.344v-54.913a15.2 15.2 0 0 1-5.019-3.343a15.315 15.315 0 0 1-3.3-16.757L91.644 58.814l-59.875 59.812a12.88 12.88 0 0 0-2.795 14.04a12.9 12.9 0 0 0 2.795 4.179l87.325 87.312a12.9 12.9 0 0 0 4.177 2.793a12.9 12.9 0 0 0 9.858 0a12.9 12.9 0 0 0 4.177-2.793l86.919-86.781a12.88 12.88 0 0 0 3.776-9.109a12.88 12.88 0 0 0-3.776-9.11"/>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" CLASS="lg:size-20 size-16"><g fill="none"><rect width="256" height="256" fill="#f03c2e" rx="60"/><g clip-path="url(#skillIconsGit0)"><path fill="#fff" d="m224.225 119.094l-87.319-87.319a12.87 12.87 0 0 0-14.035-2.793a12.9 12.9 0 0 0-4.177 2.793L100.569 49.9l23 23c5.35-1.875 11.475-.594 15.737 3.669a15.31 15.31 0 0 1 3.631 15.831l22.169 22.169c5.363-1.85 11.55-.657 15.831 3.637a15.32 15.32 0 0 1 3.321 16.706a15.333 15.333 0 0 1-20.029 8.293c-1.86-.771-3.55-1.9-4.973-3.324c-4.5-4.5-5.612-11.125-3.337-16.669l-20.675-20.675v54.407a15.6 15.6 0 0 1 4.062 2.9a15.326 15.326 0 0 1-21.675 21.675a15.32 15.32 0 0 1-3.326-16.704a15.3 15.3 0 0 1 3.326-4.971c1.481-1.475 3.125-2.594 5.019-3.344v-54.913a15.2 15.2 0 0 1-5.019-3.343a15.315 15.315 0 0 1-3.3-16.757L91.644 58.814l-59.875 59.812a12.88 12.88 0 0 0-2.795 14.04a12.9 12.9 0 0 0 2.795 4.179l87.325 87.312a12.9 12.9 0 0 0 4.177 2.793a12.9 12.9 0 0 0 9.858 0a12.9 12.9 0 0 0 4.177-2.793l86.919-86.781a12.88 12.88 0 0 0 3.776-9.109a12.88 12.88 0 0 0-3.776-9.11"/>
                         </g><defs><clipPath id="skillIconsGit0"><path fill="#fff" d="M28 28h200v200H28z"/></clipPath></defs></g></svg>
                         <div class="px-4">
-                            <h1 class="font-sans font-bold text-2xl">Git </h1>
+                            <h1 class="font-sans font-bold lg:text-2xl text-lg">Git </h1>
                             <p class="text-sm text-white/50 mt-2">version Control</p>
                         </div>
                         
                     </div>
                     <div class="flex p-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" class="size-20"><g fill="none"><rect width="256" height="256" fill="#2396ed" rx="60"/>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" class="g:size-20 size-16"><g fill="none"><rect width="256" height="256" fill="#2396ed" rx="60"/>
                             <path fill="#fff" d="M141.187 122.123h20.717v-18.744h-20.717zm-24.662 0h20.716v-18.744h-20.716zm-24.17 0h20.717v-18.744H92.355zm-24.17 0H88.41v-18.744H68.186zm-24.662 0H64.24v-18.744H43.523zm24.663-22.69h20.223V80.69H68.186zm24.17 0h20.716V80.69H92.355zm24.169 0h20.716V80.69h-20.716zm0-22.69h20.716V58h-20.716zM228 113.739s-8.879-8.386-27.129-5.426c-1.973-14.305-17.264-22.69-17.264-22.69s-14.304 17.264-3.946 36.501c-2.959 1.48-7.892 3.453-15.291 3.453H28.726c-2.467 9.372-2.467 71.521 65.602 71.521c48.832 0 85.333-22.689 102.597-64.123C222.574 134.948 228 113.738 228 113.738"/></g></svg>
                         <div class="px-4">
-                            <h1 class="font-sans font-bold text-2xl">Docker </h1>
+                            <h1 class="font-sans font-bold lg:text-2xl text-lg">Docker </h1>
                             <p class="text-sm text-white/50 mt-2">Containerization Software</p>
                         </div>
                         
@@ -337,14 +337,31 @@
         
             </section>
             
-            <section id="Resume" class="h-auto mt-20">
-                <H1 class="text-7xl font-bold mb-10">LET'S WORK<P class="text-white/20">TOGETHER</P> </H1>
-                <div class="rounded-xl h-[200px] bg-white/15 flex items-center">
-                   <di
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700 ">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" />
-                        </svg>
-                          
+            <section id="Resume" class="h-auto lg:mt-20 mt-10 lg:mb-32 mb-16">
+                <H1 class="lg:text-7xl text-3xl font-bold mb-10">LET'S WORK<P class="text-white/20">TOGETHER</P> </H1>
+                <div class="rounded-xl h-[200px] bg-white/15 flex items-center relative overflow-hidden">  
+                    
+
+                   <div class="p-4">
+                        <p class="lg:text-2xl text-base font-bold text-white mb-4 z-10">Get a copy of my resume</p>
+                        <a href="src/SAMUEL NJAU RESUME.pdf" download="SAMUEL RESUME.pdf" class="group flex p-2 border-1 min-w-fit justify-around w-1/4 rounded-xl  hover:text-black hover:bg-[#f56c39] ">
+                            <p class="lg:text-lg text-sm font-bold text-inherit bg-inherit rounded-l-xl ">Download</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="rounded-r-xl lg:size-8 size-6  text-inherit bg-inherit  ">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" />
+                            </svg>
+
+                            <div class="">               
+                                <div class="lg:size-20 lg:block hidden size-14 absolute bg-[#f56c39] top-10 right-10 scale-75 -rotate-45  group-hover:animate-pulse  rounded-xl"></div>                  
+                                <div class="lg:size-20 lg:block hidden size-14 absolute bg-[#f56c39] top-1/4  right-1/4 scale-50 -rotate-30 group-hover:animate-pulse  rounded-xl"></div>                  
+                                <div class="lg:size-20 block size-14 absolute bg-[#f56c39] top-1/2 right-1/3 scale-75 -rotate-15 group-hover:animate-pulse  rounded-xl "></div>                                   
+                                <div class="lg:size-20 block  size-14 absolute bg-[#c8fc44] top-2/3 right-1/4 scale-75 -rotate-22 group-hover:animate-pulse transition-all duration-300  rounded-xl"></div>
+                                <div class="lg:size-20 size-14 block absolute bg-[#c8fc44] bottom-2/3 right-1/4 scale-75 -rotate-75  group-hover:animate-pulse transition-all duration-300  rounded-xl"></div>
+                                <div class="lg:size-20 size-14 block absolute bg-[#c8fc44] bottom-1 right-0 scale-50 -rotate-12  group-hover:animate-pulse transition-all duration-300  rounded-xl"></div> 
+                            </div>
+                            
+                        </a>                      
+                   </div>
+                    
                     
                     
 
@@ -355,14 +372,17 @@
 
             </section>
            
-        </div>
+       
+        
       
       
        
     
     </section>
-  
+
+    
   
     </div>
+    
 </body>
 </html>
