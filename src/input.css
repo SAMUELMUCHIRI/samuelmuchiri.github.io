@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@import "tailwindcss" ;
+@source "./public/*.{html,js}";
+@plugin "daisyui";
 
 @keyframes fade-in-scale {
     0% {
