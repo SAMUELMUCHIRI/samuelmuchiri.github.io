@@ -44,9 +44,11 @@
             rel="stylesheet"
         />
         <link
-            href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-            rel="stylesheet"
-        />
+          href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+          rel="preload"
+          as="style"
+          onload="this.onload=null;this.rel='stylesheet'"
+        >
         <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
         <link
             href="assets/vendor/glightbox/css/glightbox.min.css"
@@ -206,12 +208,21 @@
                                 <div class="hero-visual">
                                     <div class="profile-container">
                                         <div class="profile-background"></div>
+
                                         <img
-                                            src="assets/img/profile/portfolio.webp"
-                                            alt="Samuel Muchiri"
-                                            class="profile-image"
-                                            loading="lazy"
+                                          src="assets/img/profile/portfolio.webp"
+                                          srcset="
+                                            assets/img/profile/portfolio_scaled.webp 480w,
+                                            assets/img/profile/portfolio.webp 1024w
+                                          "
+                                          sizes="(max-width: 600px) 480px, 1024px"
+                                          alt="Samuel Muchiri"
+                                          class="profile-image"
+                                          loading="lazy"
+                                          decoding="async"
+                                          fetchpriority="high"
                                         />
+
                                     </div>
                                 </div>
                             </div>
@@ -238,7 +249,7 @@
                                 <div class="profile-header">
                                     <div class="profile-image">
                                         <img
-                                            src="assets/img/profile/profile.avif"
+                                            src="assets/img/profile/profile.webp"
                                             alt="Profile Image"
                                             class="img-fluid"
                                             loading="lazy"
@@ -811,7 +822,7 @@
                                         src="assets/img/profile/portfolio.webp"
                                         alt="Profile"
                                         class="img-fluid rounded"
-                                        loading="lazy"
+                                        fetchpriority="high"
                                     />
                                 </div>
 
