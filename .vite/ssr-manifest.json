@@ -35,7 +35,13 @@
   "node_modules/.pnpm/@vueuse+shared@14.4.0_vue@3.5.45_typescript@5.9.3_/node_modules/@vueuse/shared/dist/index.js": [
     "/assets/profile-Dv1Ni1PX.webp"
   ],
-  "node_modules/.pnpm/clsx@2.1.1/node_modules/clsx/dist/clsx.mjs": [
+  "node_modules/.pnpm/cn@0.5.2/node_modules/cn/dist/engine.js": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/cn@0.5.2/node_modules/cn/dist/index.js": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/cn@0.5.2/node_modules/cn/dist/tables.js": [
     "/assets/profile-Dv1Ni1PX.webp"
   ],
   "node_modules/.pnpm/hookable@6.1.2/node_modules/hookable/dist/index.mjs": [
@@ -54,9 +60,6 @@
     "/assets/profile-Dv1Ni1PX.webp"
   ],
   "node_modules/.pnpm/reka-ui@2.11.0_vue@3.5.45_typescript@5.9.3_/node_modules/reka-ui/dist/shared/renderSlotFragments.js": [
-    "/assets/profile-Dv1Ni1PX.webp"
-  ],
-  "node_modules/.pnpm/tailwind-merge@3.7.0/node_modules/tailwind-merge/dist/bundle-mjs.mjs": [
     "/assets/profile-Dv1Ni1PX.webp"
   ],
   "node_modules/.pnpm/unhead@2.1.17/node_modules/unhead/dist/client.mjs": [
@@ -137,19 +140,13 @@
   "src/components/profile.ts": [
     "/assets/profile-Dv1Ni1PX.webp"
   ],
-  "src/components/projects.vue?vue&type=script&setup=true&lang.ts": [
+  "src/components/projectSection.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/profile-Dv1Ni1PX.webp"
   ],
   "src/components/ui/separator/Separator.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/profile-Dv1Ni1PX.webp"
   ],
-  "src/composables/send.ts": [
-    "/assets/profile-Dv1Ni1PX.webp"
-  ],
   "src/composables/seo.ts": [
-    "/assets/profile-Dv1Ni1PX.webp"
-  ],
-  "src/lib/utils.ts": [
     "/assets/profile-Dv1Ni1PX.webp"
   ],
   "src/main.ts": [
