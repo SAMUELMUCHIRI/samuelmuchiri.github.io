@@ -1,0 +1,161 @@
+{
+  "\u0000vite/modulepreload-polyfill.js": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "index.html": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/@unhead+vue@2.1.17_vue@3.5.45_typescript@5.9.3_/node_modules/@unhead/vue/dist/client.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/@unhead+vue@2.1.17_vue@3.5.45_typescript@5.9.3_/node_modules/@unhead/vue/dist/shared/vue.Cd6dkybA.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/@unhead+vue@3.4.3_esbuild@0.28.2_lightningcss@1.33.0_rollup@4.68.2_vite@7.3.8_@types+no_7729f2c8202266882a99df9c16d21254/node_modules/@unhead/vue/dist/shared/vue.CXwiCT15.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/@unhead+vue@3.4.3_esbuild@0.28.2_lightningcss@1.33.0_rollup@4.68.2_vite@7.3.8_@types+no_7729f2c8202266882a99df9c16d21254/node_modules/@unhead/vue/dist/shared/vue.D2XR8FqS.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/@unhead+vue@3.4.3_esbuild@0.28.2_lightningcss@1.33.0_rollup@4.68.2_vite@7.3.8_@types+no_7729f2c8202266882a99df9c16d21254/node_modules/@unhead/vue/dist/shared/vue.DKb5ZKVl.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/@vue+reactivity@3.5.45/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/@vue+runtime-core@3.5.45/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/@vue+runtime-dom@3.5.45/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/@vue+shared@3.5.45/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/@vueuse+shared@14.4.0_vue@3.5.45_typescript@5.9.3_/node_modules/@vueuse/shared/dist/index.js": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/clsx@2.1.1/node_modules/clsx/dist/clsx.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/hookable@6.1.2/node_modules/hookable/dist/index.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/reka-ui@2.11.0_vue@3.5.45_typescript@5.9.3_/node_modules/reka-ui/dist/Primitive/Primitive.js": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/reka-ui@2.11.0_vue@3.5.45_typescript@5.9.3_/node_modules/reka-ui/dist/Primitive/Slot.js": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/reka-ui@2.11.0_vue@3.5.45_typescript@5.9.3_/node_modules/reka-ui/dist/Separator/Separator.js": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/reka-ui@2.11.0_vue@3.5.45_typescript@5.9.3_/node_modules/reka-ui/dist/component/BaseSeparator.js": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/reka-ui@2.11.0_vue@3.5.45_typescript@5.9.3_/node_modules/reka-ui/dist/shared/renderSlotFragments.js": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/tailwind-merge@3.7.0/node_modules/tailwind-merge/dist/bundle-mjs.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/unhead@2.1.17/node_modules/unhead/dist/client.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/unhead@2.1.17/node_modules/unhead/dist/shared/unhead.AvDFlk_u.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/unhead@2.1.17/node_modules/unhead/dist/shared/unhead.BrXkGDAU.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/unhead@2.1.17/node_modules/unhead/dist/shared/unhead.ChXiQvI8.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/unhead@2.1.17/node_modules/unhead/dist/shared/unhead.J7R8psSN.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/unhead@3.4.3_esbuild@0.28.2_rollup@4.68.2_vite@7.3.8_@types+node@24.19.2_jiti@2.7.0_lightningcss@1.33.0_terser@5.51.2_/node_modules/unhead/dist/shared/unhead.Bf_fPVYA.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/unhead@3.4.3_esbuild@0.28.2_rollup@4.68.2_vite@7.3.8_@types+node@24.19.2_jiti@2.7.0_lightningcss@1.33.0_terser@5.51.2_/node_modules/unhead/dist/shared/unhead.CGPOfp5O.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/unhead@3.4.3_esbuild@0.28.2_rollup@4.68.2_vite@7.3.8_@types+node@24.19.2_jiti@2.7.0_lightningcss@1.33.0_terser@5.51.2_/node_modules/unhead/dist/shared/unhead.CHEy9ana.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/unhead@3.4.3_esbuild@0.28.2_rollup@4.68.2_vite@7.3.8_@types+node@24.19.2_jiti@2.7.0_lightningcss@1.33.0_terser@5.51.2_/node_modules/unhead/dist/shared/unhead.DJuZwX9c.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/unhead@3.4.3_esbuild@0.28.2_rollup@4.68.2_vite@7.3.8_@types+node@24.19.2_jiti@2.7.0_lightningcss@1.33.0_terser@5.51.2_/node_modules/unhead/dist/shared/unhead.DkxnqlHC.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/unhead@3.4.3_esbuild@0.28.2_rollup@4.68.2_vite@7.3.8_@types+node@24.19.2_jiti@2.7.0_lightningcss@1.33.0_terser@5.51.2_/node_modules/unhead/dist/shared/unhead.o8j9utSy.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/vite-ssg@28.3.0_prettier@3.8.1_unhead@2.1.17_vite@7.3.8_@types+node@24.19.2_jiti@2.7.0__a3155edb55ec2c707fc214d09234e5e3/node_modules/vite-ssg/dist/client/single-page.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/vite-ssg@28.3.0_prettier@3.8.1_unhead@2.1.17_vite@7.3.8_@types+node@24.19.2_jiti@2.7.0__a3155edb55ec2c707fc214d09234e5e3/node_modules/vite-ssg/dist/shared/vite-ssg.C6pK7rvr.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/vite-ssg@28.3.0_prettier@3.8.1_unhead@2.1.17_vite@7.3.8_@types+node@24.19.2_jiti@2.7.0__a3155edb55ec2c707fc214d09234e5e3/node_modules/vite-ssg/dist/shared/vite-ssg.ETIvV-80.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "node_modules/.pnpm/web-haptics@0.0.6_vue@3.5.45_typescript@5.9.3_/node_modules/web-haptics/dist/vue/index.mjs": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "src/App.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "src/assets/images/profile.webp": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "src/components/certificationSection.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "src/components/contactItem.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "src/components/contactSection.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "src/components/experienceSection.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "src/components/experiencesSection.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "src/components/footerSection.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "src/components/headerSection.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "src/components/heroSection.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "src/components/profile.ts": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "src/components/projects.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "src/components/ui/separator/Separator.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "src/composables/send.ts": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "src/composables/seo.ts": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "src/lib/utils.ts": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "src/main.ts": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ],
+  "src/style.css": [
+    "/assets/profile-Dv1Ni1PX.webp"
+  ]
+}
